@@ -1,1 +1,1 @@
-# Castele-din-Romania
+Aplicație WEB ce prezintă castelelele și cetățile din țara noastră.
