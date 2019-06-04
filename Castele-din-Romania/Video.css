@@ -1,0 +1,122 @@
+body
+{
+	background-color: black;
+}
+
+video 
+{
+    width: 100%;
+
+}
+
+#my_Video 
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+
+   
+}
+
+
+/* Add some content at the bottom of the video/page */
+#content 
+{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+
+/* Style the button used to pause/play the video */
+#myBtn
+{
+    width: 13%;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: solid white 3px;
+}
+
+#myBtn:hover 
+{
+    background: #ddd;
+    color: black;
+}
+
+#myBtn_sound
+{
+	width: 13%;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: solid white 3px;
+    position: absolute;
+    right:46%;
+}
+
+#myBtn_sound:hover
+{
+	background: #ddd;
+    color: black;
+}
+
+input
+{
+    zoom: 2;
+    position: absolute;
+    right: 19%;
+    bottom: 30%;
+}
+
+#myBtn_hide
+{
+	width: 13%;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: solid white 3px;
+    position: absolute;
+    right: 5%;
+
+}
+
+#myBtn_hide:hover
+{
+	background: #ddd;
+    color: black;
+}
+
+div.myVideo button
+{
+	width: 8%;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: solid white 3px;
+    left: 1%;
+    top: 1%
+
+}
+
+div.myVideo button:hover
+{
+    background: #ddd;
+    color: black;
+}
+

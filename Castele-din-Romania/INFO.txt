@@ -1,0 +1,38 @@
+
+
+HTML:
+-meta: Home.html
+-base: Home.html
+
+CSS:
+-position(relative, absolute): Prezentare.css, Galerie.css, Video.css, Program.css, Cumpara_bilet.css
+-z-index: Cumpara_bilet.css
+-transform: Home.css, Prezentare.css
+-transition: Prezentare.css
+-animation: Cumpara bilet.css
+-flexbox-model: Program.css
+
+JS:
+-inputuri (buton,text,radio, checkbox): Cumpara_bilet.js
+-this, let: Cumpara_bilet.js
+-navigare in arbore (children, parentElement, ..): Prezentare.js
+-className, classList: Prezentare.js
+-getComputedStyle: Contact.js
+-addEventListener cu param 3=true: Video.js
+-event -proprietati(-target: Program.js-
+                    -key: Video.js
+                    -pageX): Program.js
+      -metode(-stopPropagation: Video.js
+              -preventDefault): Program.js
+-proprietatee noua adaugata unui obiect: Cumpara_bilet.js
+-setInterval(cu 3 parametrii),clearInterval: Program.js
+window- open: Program.js
+      - close: Cumpara_bilet.js
+o metoda din clasele predefinite: 
+-Math: Program.js
+-Array: Program.js
+-String: Cumpara_bilet.js
+-Date: Program.js  
+-innerHTML: Program.js
+-localStorage: Cumpara_bilet.js
+-Drag and Drop: Program.js

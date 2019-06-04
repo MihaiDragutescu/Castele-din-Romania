@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bilete</title>
+	<link rel="stylesheet" type="text/css" href="Cumpara_bilet.css">
+	<script src="Cumpara_bilet.js"></script>
+</head>
+
+<header>
+
+	<button  class="buttons" id="myButton_acasa">Acasa</button>
+
+	
+</header>
+
+<body>
+    <aside><img src="BF1.png" id="BF1"></aside>
+    <aside><img src="BF2.png" id="BF2"></aside>
+	<form onsubmit="return false">
+    <div id="div2">
+		<h1 id="hh">Completati cu datele personale pentru a finaliza comanda.<br>
+		Toate campurile sunt obligatorii.</h1>
+
+		<img src="arrow.png" id="arrow" class="arrows">NUME: <input  id="input1" class="inputs" type="text" id="myText" align="middle"><br>
+		<img src="arrow.png" id="arrow" class="arrows">PRENUME: <input  id="input2" class="inputs" type="text" value=""><br>
+		<img src="arrow.png" id="arrow" class="arrows">ADRESA DE EMAIL: <input  id="input3" class="inputs" type="text"  value=""><br>
+		<img src="arrow.png" id="arrow" class="arrows">TELEFON: <input  id="input4" class="inputs" type="text" value=""><br>
+        
+        <img src="arrow.png" id="arrow1" class="arrows">
+		SELECTATI TIPUL BILETULUI DORIT:
+		<select id="mySelect">
+		  <option value="nimic">-</option>
+		  <option value="Adulţi">Adulţi: 40Lei</option>
+		  <option value="Seniori">Seniori (65+): 30Lei</option>
+		  <option value="Studenţi">Studenţi: 25Lei</option>
+		  <option value="Elevi">Elevi: 10Lei</option>
+		  <option value="Grupuri">Grupuri de copii organizate (>20 pax): 5 Lei</option>
+		</select>
+	</div>
+    
+    <div id="div1">
+		<p>Am citit termenii si conditiile si sunt de acord cu acestea.</p>
+        <input style="zoom:2" type="checkbox" id="myCheck">
+	</div>
+    
+    <br>
+    <button class="buttons" id="myButton_anuleaza">Anuleaza</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="buttons" id="myButton_confirma">Confirma</button>
+	
+	</form>
+
+	<img src="info.png" id="info">
+
+</body>
+</html>

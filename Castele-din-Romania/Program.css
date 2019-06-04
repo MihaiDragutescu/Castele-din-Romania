@@ -1,0 +1,132 @@
+﻿body
+{
+	background-color: #F9EABD;
+	overflow-x: hidden;
+}
+
+h1
+{
+	margin-top: 25px;
+	font-size: 35px;
+	font-family: Haettenschweiler;
+	color: #221B1B;
+}
+
+h2
+{
+	font-size: 30px;
+	font-family: Haettenschweiler;
+	color: #221B1B;
+}
+
+ol
+{
+	text-align: center;
+}
+
+li
+{
+	font-size: 30px;
+	font-family: Haettenschweiler;
+	color: #221B1B;
+	list-style-type: none;
+}
+
+#myButton{
+
+    width: 100px;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: solid white 3px;
+    position: fixed;
+    left: 1%;
+    top: 1%
+}
+
+#myButton:hover
+{
+    background: #ddd;
+    color: black;
+}
+
+#Button_buy
+{
+	width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: solid red 3px;
+}
+
+#Button_buy:hover
+{
+	background: #ddd;
+    color: black;
+}
+
+/*Layoutul flexibil ofera o metoda eficienta de a aseza, alinia și a distribui spațiul intre elementele din document*/
+
+
+.flex-container/*section*/
+{
+  margin-top: 30px;
+  display: flex; /*definim container-ul flexibil*/
+  flex-direction: column; /*stabilim directia in care sunt plasate articolele din aside*/
+}
+
+.articole
+{
+	align-self:center; /*Permite alinierea individuala a itemurilor (inlocuieste alinierea cu align-items)*/
+}
+
+p
+{
+	font-family: Haettenschweiler;
+	font-size: 25px;
+}
+
+#clock
+{
+	position: absolute;
+	right: 1%;
+	top: 1%;
+	width: 10%;
+	height: 23%;
+	cursor: pointer;
+}
+
+#bin_div
+{
+	position: absolute;
+	right: -3%;
+	top: 85%;
+	width: 25%;
+	height: 57.5%;
+}
+
+img
+{
+	max-width: 100%;
+    max-height: 100%;
+}
+
+#p1
+{
+	position: absolute;
+	right: 2.5%;
+	top: 20%;
+	cursor: pointer;
+}
+
+#p2
+{
+	position: absolute;
+	right: 2.5%;
+	top: 25%;
+}
+

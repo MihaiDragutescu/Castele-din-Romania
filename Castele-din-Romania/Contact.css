@@ -1,0 +1,81 @@
+body
+{
+	background-color: #F9EABD;
+}
+
+h1
+{
+	margin-top: 25px;
+	font-size: 2.2em;
+	font-family: Haettenschweiler;
+	color: #221B1B;
+}
+
+table, th, td 
+{
+  
+   border: 1px solid black;
+   font-family: Haettenschweiler;
+   font-size: 1.4em;
+   text-align: center;
+}
+
+th
+{
+	font-size: 30px;
+	background-color: #F7CD4D;
+	height: 80px;
+}
+
+td
+{
+	height: 10vh;
+	
+}
+
+table
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+tr:nth-child(odd) 
+{    
+
+	background-color: #F7E09A;
+}
+
+#myButton
+{
+
+    width: 100px;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: solid white 3px;
+    position: fixed;
+    left: 1%;
+    top: 1%
+}
+
+#myButton:hover
+{
+    background: #ddd;
+    color: black;
+}
+
+p
+{
+	font-family: Haettenschweiler;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 3%;
+}
+
+mark
+{
+	background-color: red;
+	background-color: #ecef4a;
+}
