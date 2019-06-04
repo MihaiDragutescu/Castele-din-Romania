@@ -8,11 +8,11 @@ window.onload=function()
 	{
 	   if (img.src.match("home2.jpg")) 
 	   {
-	      img.src="home1.jpg";
+	      img.src="../Imagini/home1.jpg";
 	   }
 	   else
 	   {
-	      img.src="home2.jpg";
+	      img.src="../Imagini/home2.jpg";
 	   }
 	}
 
